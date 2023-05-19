@@ -12,6 +12,12 @@
       href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@1,200&family=Poppins:wght@100&display=swap"
       rel="stylesheet"
     />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Mukta:wght@300&family=Poppins:wght@100&display=swap"
+      rel="stylesheet"
+    />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
@@ -31,7 +37,6 @@
           <li><a href="#contact">Contact</a></li>
         </ul>
       </div>
-    
     </nav>
     <div class="home">
       <img src="img/p.jpg" class="profile" alt="" />
@@ -54,15 +59,23 @@
         Completed 2022 web development Bootcamp (udemy) <br />
         JavaScript Algorithms and Data Structures certified (freeCodeCamp)
         <br />
-        Responsive Web Design (freeCodeCamp)
+        Responsive Web Design (freeCodeCamp) <br />
+        React 18 course (codedamn)
       </h1>
       <div class="projects">
-        <br>
-        <br>
+        <br />
+        <br />
         <h2>Projects</h2>
-        <img src="img/netflix.png"   alt="" href="https://anandhu-as.github.io/netflixUI/"> 
-  
-        <h2>Created Netflix Clone using pure HTML,CSS and JS</h2>
+        <img
+          src="img/netflix.png"
+          alt=""
+          href="https://anandhu-as.github.io/netflixUI/"
+        />
+
+        <h2>
+          Created Netflix Clone using pure HTML,CSS and JS used API to fetch
+          movies
+        </h2>
       </div>
     </div>
     <div class="skills" id="skills">
@@ -74,20 +87,29 @@
       <h2>JavaScript</h2>
       <h2>Reactjs</h2>
       <br /><br />
-      <h1>Some of my certificates</h1>   <br />
+      <h1>Some of my certificates</h1>
       <br />
-      <img src="img/c4.jpg" class="certificate" alt="" />
-      <img src="img/c1.jpg" class="certificate" alt="" /><br />
-      <img src="img/c2.jpg" class="certificate" alt="" />
-      <img src="img/c3.jpg" class="certificate" alt="" />
+      <br />
+      <img src="img/c6.png" class="c" alt="" />
+      <img src="img/c4.jpg" alt="" class="c" /> <br /><br />
+      <button>
+        <a href="https://www.linkedin.com/in/anandhu-as-413a28257/">
+          view More</a
+        >
+      </button>
     </div>
     <div id="contact" class="contact">
       <h1>Contact</h1>
       <br />
       <form id="my-form" action="https://formspree.io/f/xjvdjqee" method="POST">
-        <label>Email:</label>
-        <input type="email" name="email" class="inputField" /><br /><br />
-        <label>Message:</label>
+        <label>Email</label>
+        <input
+          type="email"
+          name="email"
+          class="inputField"
+          required
+        /><br /><br />
+        <label>Message</label>
         <input type="text" name="message" class="inputField" /><br /><br />
         <button id="my-form-button" class="btn">Submit</button><br />
         <p id="my-form-status"></p>
